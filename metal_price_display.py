@@ -5,7 +5,7 @@ from datetime import datetime
 api_key = "ml97jh99o23eay57z38r0gba871dc13wr3csqg39bw87ywd7d35qd38lfjca"
 
 # 1. Load Existing Data from the provided file
-with open('rounded_structured_metal_data.json', 'r') as file:
+with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\rounded_structured_metal_data.json", 'r') as file:
     data = json.load(file)
     metals_data = data["Metals"]
 
@@ -48,5 +48,5 @@ for metal in metals_data:
         })
 
 # Save the updated data back to the file
-with open('rounded_structured_metal_data.json', 'w') as file:
+with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\rounded_structured_metal_data.json", 'w') as file:
     json.dump({"Metals": metals_data}, file)

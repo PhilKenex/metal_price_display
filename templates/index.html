@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Prices</title>
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Metal Name</th>
+                <th>Symbol</th>
+                <th>Price Change (1 day)</th>
+                <th>Percentage Change (1 day) (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for metal in metals %}
+            <tr>
+                <td><a href="#" onclick="fetchPlot('{{ metal['Metal_Name'] }}')">{{ metal['Metal_Name'] }}</a></td>
+                <td>{{ metal['Symbol'] }}</td>
+                <td>{{ metal['Price Change (1 day)'] }}</td>
+                <td>{{ "{:.2f}".format(metal.get('Percentage Change (1 day)', 0)) }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div id="plot"></div>
+
+    <script>
+        function fetchPlot(metalName) {
+            fetch('/plot/' + metalName)
+                .then(response => response.json())
+                .then(data => {
+                    if (data && data[0]) {
+                        Plotly.newPlot('plot', data[0].data, data[0].layout);
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
