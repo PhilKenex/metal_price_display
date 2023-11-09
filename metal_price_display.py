@@ -14,15 +14,18 @@ with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_d
 url_1 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=ANTIMONY%2CLCO%2CLEAD%2CLITHIUM%2CMO"
 url_2 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=NI%2CTIN%2CTUNGSTEN%2CXAG%2CXAU"
 url_3 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=XCU%2CXPD%2CXPT%2CZNC"
+url_4 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=TE%2CGALLIUM"
 
 response_1 = requests.request("GET", url_1)
 response_2 = requests.request("GET", url_2)
 response_3 = requests.request("GET", url_3)
+response_4 = requests.request("GET", url_4)
 
 # Combine data from API responses
 data = response_1.json()
 data['rates'].update(response_2.json()['rates'])
 data['rates'].update(response_3.json()['rates'])
+data['rates'].update(response_4.json()['rates'])
 
 # Adjust rates
 for key, value in data['rates'].items():
@@ -31,7 +34,7 @@ for key, value in data['rates'].items():
 
 # Conversion calculations
 data['rates']['TUNGSTEN'] *= 3215000
-for key in ['ANTIMONY', 'LEAD', 'NI', 'XCU', 'TIN']:
+for key in ['ANTIMONY', 'LEAD', 'NI', 'XCU', 'TIN','TE','GALLIUM']:
     data['rates'][key] *= 35270
 for key in ['LCO','LITHIUM','MO','ZNC']:
     data['rates'][key] *= 32150

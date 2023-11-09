@@ -1,227 +1,493 @@
-<table width=100%>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Metals Dashboard
+  </title>
+  <style>
+   body {
+    background-color: black;
+    color: white; /* Ensure text is readable on the black background */
+    font-family: 'Roboto', sans-serif;
+  }
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Optional: removes the space between borders */
+    }
+
+    th, td {
+        text-align: center; /* Centers text in table headers and cells */
+        padding: 8px; /* Optional: adds space inside each cell */
+    }
+
+    .positive { color: green; font-weight: bold;}
+    .negative { color: red; font-weight: bold;}
+    .neutral { color: whitesmoke; font-weight: bold;}
+  </style>
+ </head>
+ <body>
+  <div id="content">
+   <table width="100%">
     <tr>
-        <th>Metal Name</th>
-        <th>Unit</th>
-        <th>Current Price</th>
-        <th>1 Day Change (Num)</th>
-        <th>1 Day Change (%)</th>
-        <th>1 Week Change (Num)</th>
-        <th>1 Week Change (%)</th>
-        <th>1 Month Change (Num)</th>
-        <th>1 Month Change (%)</th>
-        <th>3 Months Change (Num)</th>
-        <th>3 Months Change (%)</th>
-        <th>1 Year Change (Num)</th>
-        <th>1 Year Change (%)</th>
+     <th>
+      Metal Name
+     </th>
+     <th>
+      Unit
+     </th>
+     <th>
+      Current Price (AUD)
+     </th>
+     <th>
+      One Day Change (%)
+     </th>
+     <th>
+      One Week Change (%)
+     </th>
+     <th>
+      One Month Change (%)
+     </th>
+     <th>
+      Three Months Change (%)
+     </th>
+     <th>
+      One Year Change (%)
+     </th>
     </tr>
     <tr>
-        <td>Antimony</td>
-        <td>t</td>
-        <td>$18,667.89</td>
-        <td style='color:green'>$89.8</td>
-        <td style='color:green'>0.48%</td>
-        <td style='color:red'>$-25.08</td>
-        <td style='color:red'>-0.13%</td>
-        <td style='color:red'>$-122.15</td>
-        <td style='color:red'>-0.65%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Antimony
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $18,761.47
+     </td>
+     <td>
+      0.5%
+     </td>
+     <td>
+      0.97%
+     </td>
+     <td>
+      0.51%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Cobalt</td>
-        <td>t</td>
-        <td>$57,214.37</td>
-        <td style='color:green'>$275.23</td>
-        <td style='color:green'>0.48%</td>
-        <td style='color:green'>$630.42</td>
-        <td style='color:green'>1.11%</td>
-        <td style='color:green'>$1902.63</td>
-        <td style='color:green'>3.44%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Cobalt
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $57,501.17
+     </td>
+     <td>
+      0.5%
+     </td>
+     <td>
+      1.81%
+     </td>
+     <td>
+      5.92%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Lead</td>
-        <td>t</td>
-        <td>$3,711.58</td>
-        <td style='color:green'>$16.57</td>
-        <td style='color:green'>0.45%</td>
-        <td style='color:green'>$89.58</td>
-        <td style='color:green'>2.47%</td>
-        <td style='color:red'>$-3.97</td>
-        <td style='color:red'>-0.11%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Lead
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $3,790.48
+     </td>
+     <td>
+      2.13%
+     </td>
+     <td>
+      5.99%
+     </td>
+     <td>
+      4.52%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Lithium</td>
-        <td>t</td>
-        <td>$39,838.90</td>
-        <td style='color:red'>$-585.75</td>
-        <td style='color:red'>-1.45%</td>
-        <td style='color:red'>$-1617.94</td>
-        <td style='color:red'>-3.9%</td>
-        <td style='color:red'>$-3736.21</td>
-        <td style='color:red'>-8.57%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Lithium
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $40,038.60
+     </td>
+     <td>
+      0.5%
+     </td>
+     <td>
+      -2.84%
+     </td>
+     <td>
+      -6.36%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Molybdenum</td>
-        <td>t</td>
-        <td>$64,580.74</td>
-        <td style='color:green'>$3738.4</td>
-        <td style='color:green'>6.14%</td>
-        <td style='color:green'>$5948.86</td>
-        <td style='color:green'>10.15%</td>
-        <td style='color:red'>$-11372.03</td>
-        <td style='color:red'>-14.97%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Molybdenum
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $64,904.47
+     </td>
+     <td>
+      0.5%
+     </td>
+     <td>
+      11.37%
+     </td>
+     <td>
+      -14.03%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Nickel</td>
-        <td>t</td>
-        <td>$30,135.07</td>
-        <td style='color:red'>$-334.33</td>
-        <td style='color:red'>-1.1%</td>
-        <td style='color:red'>$-435.23</td>
-        <td style='color:red'>-1.42%</td>
-        <td style='color:red'>$-1622.06</td>
-        <td style='color:red'>-5.11%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Nickel
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $30,772.74
+     </td>
+     <td>
+      2.12%
+     </td>
+     <td>
+      1.7%
+     </td>
+     <td>
+      -1.19%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Tin</td>
-        <td>t</td>
-        <td>$41,801.44</td>
-        <td style='color:green'>$201.08</td>
-        <td style='color:green'>0.48%</td>
-        <td style='color:red'>$-487.25</td>
-        <td style='color:red'>-1.15%</td>
-        <td style='color:red'>$-481.22</td>
-        <td style='color:red'>-1.14%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Tin
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $42,482.58
+     </td>
+     <td>
+      1.63%
+     </td>
+     <td>
+      5.31%
+     </td>
+     <td>
+      1.38%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Tungsten</td>
-        <td>t</td>
-        <td>$45,306.98</td>
-        <td style='color:red'>$-559.45</td>
-        <td style='color:red'>-1.22%</td>
-        <td style='color:red'>$-843.08</td>
-        <td style='color:red'>-1.83%</td>
-        <td style='color:red'>$-3014.7</td>
-        <td style='color:red'>-6.24%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Tungsten
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $45,534.09
+     </td>
+     <td>
+      0.5%
+     </td>
+     <td>
+      -0.74%
+     </td>
+     <td>
+      -4.92%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Silver</td>
-        <td>oz</td>
-        <td>$35.23</td>
-        <td style='color:green'>$0.08</td>
-        <td style='color:green'>0.23%</td>
-        <td style='color:red'>$-0.59</td>
-        <td style='color:red'>-1.65%</td>
-        <td style='color:green'>$1.09</td>
-        <td style='color:green'>3.19%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Silver
+     </td>
+     <td>
+      oz
+     </td>
+     <td>
+      $35.48
+     </td>
+     <td>
+      0.71%
+     </td>
+     <td>
+      0.23%
+     </td>
+     <td>
+      4.51%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Gold</td>
-        <td>oz</td>
-        <td>$3,044.36</td>
-        <td style='color:red'>$-15.25</td>
-        <td style='color:red'>-0.5%</td>
-        <td style='color:red'>$-50.45</td>
-        <td style='color:red'>-1.63%</td>
-        <td style='color:green'>$142.3</td>
-        <td style='color:green'>4.9%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Gold
+     </td>
+     <td>
+      oz
+     </td>
+     <td>
+      $3,075.31
+     </td>
+     <td>
+      1.02%
+     </td>
+     <td>
+      -0.34%
+     </td>
+     <td>
+      6.34%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Copper</td>
-        <td>t</td>
-        <td>$12,522.35</td>
-        <td style='color:red'>$-107.71</td>
-        <td style='color:red'>-0.85%</td>
-        <td style='color:red'>$-1271.23</td>
-        <td style='color:red'>-9.22%</td>
-        <td style='color:red'>$-110.99</td>
-        <td style='color:red'>-0.88%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Copper
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $12,555.70
+     </td>
+     <td>
+      0.27%
+     </td>
+     <td>
+      -8.34%
+     </td>
+     <td>
+      0.58%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Palladium</td>
-        <td>oz</td>
-        <td>$1,651.40</td>
-        <td style='color:green'>$3.28</td>
-        <td style='color:green'>0.2%</td>
-        <td style='color:red'>$-85.13</td>
-        <td style='color:red'>-4.9%</td>
-        <td style='color:red'>$-141.44</td>
-        <td style='color:red'>-7.89%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Palladium
+     </td>
+     <td>
+      oz
+     </td>
+     <td>
+      $1,564.68
+     </td>
+     <td>
+      -5.25%
+     </td>
+     <td>
+      -9.6%
+     </td>
+     <td>
+      -14.4%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Platinum</td>
-        <td>oz</td>
-        <td>$1,354.55</td>
-        <td style='color:red'>$-30.8</td>
-        <td style='color:red'>-2.22%</td>
-        <td style='color:red'>$-89.43</td>
-        <td style='color:red'>-6.19%</td>
-        <td style='color:red'>$-32.1</td>
-        <td style='color:red'>-2.31%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Platinum
+     </td>
+     <td>
+      oz
+     </td>
+     <td>
+      $1,344.07
+     </td>
+     <td>
+      -0.77%
+     </td>
+     <td>
+      -6.25%
+     </td>
+     <td>
+      -1.77%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
     <tr>
-        <td>Zinc</td>
-        <td>t</td>
-        <td>$3,963.58</td>
-        <td style='color:red'>$-15.53</td>
-        <td style='color:red'>-0.39%</td>
-        <td style='color:green'>$158.78</td>
-        <td style='color:green'>4.17%</td>
-        <td style='color:green'>$113.02</td>
-        <td style='color:green'>2.94%</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
-        <td style='color:'>$-</td>
-        <td style='color:'>-</td>
+     <td>
+      Zinc
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $4,089.04
+     </td>
+     <td>
+      3.17%
+     </td>
+     <td>
+      6.05%
+     </td>
+     <td>
+      7.93%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
     </tr>
-</table>
+    <tr>
+     <td>
+      Tellurium
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $127,181.72
+     </td>
+     <td>
+      1.54%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Gallium
+     </td>
+     <td>
+      t
+     </td>
+     <td>
+      $447,291.64
+     </td>
+     <td>
+      0.67%
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+     <td>
+      -
+     </td>
+    </tr>
+   </table>
+  </div>
+  <script>
+   document.addEventListener('DOMContentLoaded', (event) => {
+      const table = document.querySelector('#content table');
+      for (const row of table.rows) {
+        for (const cell of row.cells) {
+          if (cell.textContent.startsWith('$-') || parseFloat(cell.textContent) < 0) {
+            cell.classList.add('negative');
+          } else if (cell.textContent.startsWith('$') || parseFloat(cell.textContent) > 0) {
+            cell.classList.add('positive');
+          } else {
+            cell.classList.add('neutral');
+          }
+        }
+      }
+    });
+  </script>
+ </body>
+</html>
