@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import datetime
+import csv
 
 api_key = "ml97jh99o23eay57z38r0gba871dc13wr3csqg39bw87ywd7d35qd38lfjca"
 
@@ -50,3 +51,28 @@ for metal in metals_data:
 # Save the updated data back to the file
 with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\rounded_structured_metal_data.json", 'w') as file:
     json.dump({"Metals": metals_data}, file)
+
+# Load the JSON data from the file
+with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\rounded_structured_metal_data.json", 'r') as file:
+    data = json.load(file)
+
+# Get the metal data from the 'Metals' key
+metals_data = data['Metals']
+
+# CSV file path
+csv_file_path = r'C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\test.csv'
+
+# Flatten the data into rows with one price entry per row
+flattened_rows = []
+for entry in metals_data:
+    metal_info = {key: value for key, value in entry.items() if key != 'Prices'}
+    for price_entry in entry['Prices']:
+        row = {**metal_info, **price_entry}
+        flattened_rows.append(row)
+
+# Write the flattened data to a CSV file
+with open(csv_file_path, mode='w', newline='') as file:
+    writer = csv.DictWriter(file, fieldnames=flattened_rows[0].keys())
+    writer.writeheader()
+    for record in flattened_rows:
+        writer.writerow(record)

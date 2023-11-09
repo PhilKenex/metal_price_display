@@ -32,11 +32,47 @@
 				},
 				{
 					"Date_Collected": "2023-10-27",
-					"Price": 18967.06
+					"Price": 18991.16
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 18991.16
+					"Date_Collected": "2023-10-29",
+					"Price": 18863.21
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 18862.42
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 18839.69
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 18692.97
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 18580.61
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 18348.7
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 18411.87
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 18578.09
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 18667.89
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 18661.11
 				}
 			]
 		},
@@ -75,8 +111,44 @@
 					"Price": 57174.37
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 57247.04
+					"Date_Collected": "2023-10-29",
+					"Price": 57099.27
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 57096.86
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 57028.06
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 56583.95
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 56478.17
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 55773.24
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 55965.27
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 56939.14
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 57214.37
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 57193.58
 				}
 			]
 		},
@@ -115,8 +187,44 @@
 					"Price": 3700.03
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 3704.73
+					"Date_Collected": "2023-10-29",
+					"Price": 3706.26
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 3706.1
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 3726.54
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 3622.0
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 3576.26
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 3645.43
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 3657.98
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 3695.01
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3711.58
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3710.23
 				}
 			]
 		},
@@ -155,8 +263,44 @@
 					"Price": 43470.15
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 43525.4
+					"Date_Collected": "2023-10-29",
+					"Price": 42623.72
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 42621.92
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 42570.57
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 41456.84
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 41207.64
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 39925.51
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 40062.98
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 40424.65
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 39838.9
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 39824.42
 				}
 			]
 		},
@@ -195,8 +339,44 @@
 					"Price": 68827.21
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 68914.69
+					"Date_Collected": "2023-10-29",
+					"Price": 66996.63
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 66993.8
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 66913.08
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 58631.88
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 58279.44
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 60091.09
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 60297.99
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 60842.34
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 64580.74
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 64557.27
 				}
 			]
 		},
@@ -235,8 +415,44 @@
 					"Price": 31360.1
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 31399.96
+					"Date_Collected": "2023-10-29",
+					"Price": 31151.78
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 31150.46
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 31445.9
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 30570.3
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 30256.89
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 30000.53
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 30103.83
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 30469.4
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 30135.07
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 30124.12
 				}
 			]
 		},
@@ -275,8 +491,44 @@
 					"Price": 43405.1
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 43460.26
+					"Date_Collected": "2023-10-29",
+					"Price": 43262.82
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 43260.99
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 43096.78
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 42288.69
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 40341.97
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 40853.98
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 40994.64
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 41600.36
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 41801.44
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 41786.26
 				}
 			]
 		},
@@ -315,8 +567,44 @@
 					"Price": 46631.62
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 46690.89
+					"Date_Collected": "2023-10-29",
+					"Price": 46570.36
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 46568.39
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 46512.29
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 46150.06
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 45872.65
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 45300.1
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 45456.07
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 45866.43
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 45306.98
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 45290.52
 				}
 			]
 		},
@@ -355,8 +643,44 @@
 					"Price": 36.01
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 36.02
+					"Date_Collected": "2023-10-29",
+					"Price": 36.5
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 36.5
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 36.07
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 35.82
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 35.4
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 35.67
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 35.53
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 35.15
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 35.23
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 35.23
 				}
 			]
 		},
@@ -395,8 +719,44 @@
 					"Price": 3136.92
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 3140.89
+					"Date_Collected": "2023-10-29",
+					"Price": 3167.63
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 3169.55
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 3129.0
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 3094.81
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 3085.74
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 3059.87
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 3051.66
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 3059.61
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3044.36
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3044.66
 				}
 			]
 		},
@@ -435,8 +795,44 @@
 					"Price": 12607.3
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 12614.6
+					"Date_Collected": "2023-10-29",
+					"Price": 12757.78
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 12757.24
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 14027.24
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 13793.58
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 13698.12
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 13595.29
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 12607.07
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 12630.06
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 12522.35
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 12522.97
 				}
 			]
 		},
@@ -475,8 +871,44 @@
 					"Price": 1802.07
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 1794.87
+					"Date_Collected": "2023-10-29",
+					"Price": 1776.82
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 1776.74
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 1776.18
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 1736.53
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 1730.76
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 1721.44
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 1691.93
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 1648.12
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 1651.4
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 1647.67
 				}
 			]
 		},
@@ -515,8 +947,44 @@
 					"Price": 1427.43
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 1427.66
+					"Date_Collected": "2023-10-29",
+					"Price": 1427.14
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 1427.08
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 1472.66
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 1443.98
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 1433.75
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 1431.21
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 1396.07
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 1385.35
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 1354.55
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 1355.62
 				}
 			]
 		},
@@ -555,8 +1023,44 @@
 					"Price": 3907.79
 				},
 				{
-					"Date_Collected": "2023-10-27",
-					"Price": 3912.76
+					"Date_Collected": "2023-10-29",
+					"Price": 3860.6
+				},
+				{
+					"Date_Collected": "2023-10-30",
+					"Price": 3860.44
+				},
+				{
+					"Date_Collected": "2023-11-01",
+					"Price": 3884.01
+				},
+				{
+					"Date_Collected": "2023-11-02",
+					"Price": 3804.8
+				},
+				{
+					"Date_Collected": "2023-11-03",
+					"Price": 3855.87
+				},
+				{
+					"Date_Collected": "2023-11-06",
+					"Price": 3829.39
+				},
+				{
+					"Date_Collected": "2023-11-07",
+					"Price": 3842.58
+				},
+				{
+					"Date_Collected": "2023-11-08",
+					"Price": 3979.11
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3963.58
+				},
+				{
+					"Date_Collected": "2023-11-09",
+					"Price": 3962.14
 				}
 			]
 		}
