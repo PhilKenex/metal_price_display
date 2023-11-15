@@ -3,7 +3,8 @@ import json
 from datetime import datetime
 import csv
 
-api_key = "ml97jh99o23eay57z38r0gba871dc13wr3csqg39bw87ywd7d35qd38lfjca"
+with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\api_key.txt", 'r') as api_key_file:
+    api_key = api_key_file.read().strip()
 
 # 1. Load Existing Data from the provided file
 with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_display\rounded_structured_metal_data.json", 'r') as file:
@@ -13,19 +14,19 @@ with open(r"C:\Users\PhilGreville\OneDrive - Kenex Ltd\Projects_PG\metal_price_d
 # Connect to API and define API parameters
 url_1 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=ANTIMONY%2CLCO%2CLEAD%2CLITHIUM%2CMO"
 url_2 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=NI%2CTIN%2CTUNGSTEN%2CXAG%2CXAU"
-url_3 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=XCU%2CXPD%2CXPT%2CZNC"
-url_4 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=TE%2CGALLIUM"
+url_3 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=XCU%2CXPD%2CXPT%2CZNC%2CTE%2CGALLIUM"
+# url_4 = f"https://metals-api.com/api/latest?access_key={api_key}&base=AUD&symbols=TE%2CGALLIUM"
 
 response_1 = requests.request("GET", url_1)
 response_2 = requests.request("GET", url_2)
 response_3 = requests.request("GET", url_3)
-response_4 = requests.request("GET", url_4)
+# response_4 = requests.request("GET", url_4)
 
 # Combine data from API responses
 data = response_1.json()
 data['rates'].update(response_2.json()['rates'])
 data['rates'].update(response_3.json()['rates'])
-data['rates'].update(response_4.json()['rates'])
+# data['rates'].update(response_4.json()['rates'])
 
 # Adjust rates
 for key, value in data['rates'].items():
