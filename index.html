@@ -10,7 +10,8 @@
     background-color: black;
     color: white; /* Ensure text is readable on the black background */
     font-family: 'Roboto', sans-serif;
-  }
+    }
+
     table {
         width: 100%;
         border-collapse: collapse; /* Optional: removes the space between borders */
@@ -19,6 +20,21 @@
     th, td {
         text-align: center; /* Centers text in table headers and cells */
         padding: 8px; /* Optional: adds space inside each cell */
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Removes the space between borders */
+      /* Other styles... */
+    }
+
+    /* Style for odd rows */
+    tr:nth-child(odd) {
+      background-color: #323232; /* Dark grey for odd rows */
+    }
+
+    /* Style for even rows */
+    tr:nth-child(even) {
+      background-color: #1c1c1c; /* Even darker grey for even rows */
     }
 
     .positive { color: green; font-weight: bold;}
